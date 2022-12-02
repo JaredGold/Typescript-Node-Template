@@ -1,0 +1,36 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "npx tsc; node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredGold/Advent-of-code-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaredGold/Advent-of-code-2022/issues"
+  },
+  "homepage": "https://github.com/JaredGold/Advent-of-code-2022#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.3",
+    "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.0"
+  }
+}
